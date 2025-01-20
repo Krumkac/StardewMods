@@ -1,0 +1,769 @@
+{
+    /*********
+    ** Generic translations
+    *********/
+    // language info
+    "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
+    "generic.line-wrap-on": "", // characters after which we can line-wrap text if needed, even if there's no space
+
+    // date names
+    "generic.now": "зараз",
+    "generic.tomorrow": "заўтра",
+    "generic.yesterday": "учора",
+
+    // generic values
+    "generic.unknown": "невядома",
+
+    // generic field values
+    "generic.percent": "{{percent}}%",
+    "generic.percent-chance-of": "{{percent}}% шанец для {{label}}",
+    "generic.percent-ratio": "{{percent}}% ({{value}} з {{max}})",
+    "generic.ratio": "{{value}} з {{max}}",
+    "generic.range": "З {{min}} да {{max}}",
+    "generic.yes": "так",
+    "generic.no": "не",
+    "generic.seconds": "{{count}} сек.",
+    "generic.minutes": "{{count}} хв.",
+    "generic.hours": "{{count}} год.",
+    "generic.days": "{{count}} дз.",
+    "generic.in-x-days": "за {{count}} дз.",
+    "generic.x-days-ago": "{{count}} дз. таму",
+    "generic.price": "{{price}} зал.",
+    "generic.price-for-quality": "{{price}} зал. ({{quality}})",
+    "generic.price-for-stack": "{{price}} зал. за набор з {{count}} адз.",
+    "generic.show-x-results": "паказаць {{count}} вынікаў", // TODO
+
+    // types
+    "type.building": "Будынак",
+    "type.bush": "Куст",
+    "type.fruit-tree": "Фруктовае дрэва",
+    "type.map-tile": "Аб'єкт",
+    "type.monster": "Пачвара",
+    "type.player": "Гулец",
+    "type.tree": "Дрэва",
+    "type.villager": "Жыхар",
+    "type.other": "Іншае", // default type
+
+    // item qualities
+    "quality.normal": "звычайнае",
+    "quality.silver": "срэбранае",
+    "quality.gold": "залатое",
+    "quality.iridium": "ірыдавае",
+
+    // item names shown in recipes
+    "item.wild-seeds": "Дзікае насенне (Любое)", // TODO
+
+    // NPC friendship
+    "friendship-status.friendly": "Дружалюбны",
+    "friendship-status.dating": "Сустракаецца",
+    "friendship-status.engaged": "Заручаны",
+    "friendship-status.married": "Шлюб",
+    "friendship-status.divorced": "Разыйшліся",
+    "friendship-status.kicked-out": "Выгнаны",
+
+    // custom content (shows which mod added an item, NPC, etc)
+    // TODO
+    "added-by-mod": "Дададзена модам",
+    "added-by-mod.summary": "{{modName}}",
+
+
+    /*********
+    ** Data translations
+    *********/
+    // Community Center bundle areas
+    "bundle-area.pantry": "Камора",
+    "bundle-area.crafts-room": "Пакой рамесніка",
+    "bundle-area.fish-tank": "Акварыум",
+    "bundle-area.boiler-room": "Кацельня",
+    "bundle-area.vault": "Сэйф",
+    "bundle-area.bulletin-board": "Дошка аб'яваў",
+    "bundle-area.abandoned-joja-mart": "Пакінуты Joja Маркет",
+
+    // shop names
+    "shop.adventure-guild": "Гільдыя Прыгоднікаў",
+    "shop.clint": "Клінт",
+    "shop.marnie": "Марні",
+    "shop.pierre": "П'єр",
+    "shop.robin": "Робін",
+    "shop.volcano": "Крама красналюда",
+    "shop.willy": "Віллі",
+
+    // recipe types
+    "recipe-type.cooking": "Гатаванне",
+    "recipe-type.crafting": "Стварэнне",
+    "recipe-type.tailoring": "Кравецтва",
+
+    // NPC descriptions
+    "data.npc.pet.description": "Ваш найлепшы сябар.",
+    "data.npc.horse.description": "Ваш адданы конь.",
+    "data.npc.junimo.description": "Дух лесу са свету духаў. Пра іх мала што вядома.",
+    "data.npc.trash-bear.description": "Дружны дух, які прыбірае смецце.",
+
+    // item types
+    "data.type.container": "Кантэйнер",
+
+    // override item text
+    "data.item.egg-incubator.description": "Гадуе яйца куранят ды качанят.",
+    "data.item.barrel.name": "Дзержка",
+    "data.item.barrel.description": "Трэба разбіць, каб атрымаць розныя рэчы.",
+    "data.item.box.name": "Скрынка",
+    "data.item.box.description": "Трэба разбіць, каб атрымаць розныя рэчы.",
+
+    // location names
+    "location.beach.east-pier": "Пляж (усходні пірс)",
+    "location.bugLand": "Логава жукоў-мутантаў",
+    "location.desert.topPond": "пустеля (паўночны бок)",
+    "location.farmCave": "Пячора фермы",
+    "location.farmHouse": "Будынак фермы",
+    "location.forest.island-tip": "Лясовая рэчка (паўднёвая частка вялікага вострава)",
+    "location.forest.lake": "Лясное возера",
+    "location.forest.river": "Лясная рэчка",
+    "location.HarveyRoom": "Пакой Харві", // TODO
+    "location.LeoTreeHouse": "Дом на дрэве", // TODO
+    "location.SandyHouse": "Аазіс", // TODO
+    "location.SebastianRoom": "Пакой Сэбастыяна", // TODO
+    "location.submarine": "Падводны човен Начнога рынка",
+    "location.town.northmost-bridge": "Горад (найпаўночны мост)",
+    "location.undergroundMine": "Шахта",
+    "location.undergroundMine.level": "{{level}} узровень шахты",
+    "location.witchSwamp": "Балота ведзьмы",
+
+    "location.caldera": "Жерла вулкана Імбирнага вострава",
+    "location.islandEast": "Усходняя частка Імбирнага вострава",
+    "location.islandNorth": "Паўночная частка Імбирнага вострава",
+    "location.islandSouth": "Паўднёвая частка Імбирнага вострава",
+    "location.islandSouthEast": "Паўднёва-усходняя частка Імбирнага вострава",
+    "location.islandSouthEastCave": "Пячора паўднёва-усходняй часткі Імбирнага вострава",
+    "location.islandWest": "Заходняя частка Імбирнага вострава",
+    "location.islandWest.freshwater": "Заходняя частка Імбирнага вострава (прэснаводная)",
+    "location.islandWest.ocean": "Заходняя частка Імбирнага вострава (акіян)",
+
+    "location.fish-area": "{{locationName}} ({{areaName}})",
+    "location.unknown-fish-area": "{{locationName}} (рыбалавецкая мясціна {{id}})",
+
+
+    /*********
+    ** Conditions & context tags
+    *********/
+    // TODO
+    "condition-or-context-tag.negate": "не {{value}}",
+
+    "condition.day-of-month": "у пэўныя дні ({{days}})",
+    "condition.day-of-month.even": "цотныя дні",
+    "condition.day-of-month.odd": "няцотныя дні",
+
+    "condition.item-type.input": "пакладзены прадмет",
+    "condition.item-type.target": "мэтавы прадмет",
+
+    "condition.raw-context-tag": "context tag \"{{tag}}\"",
+    "condition.raw-condition": "запыт \"{{tag}}\"",
+
+    "condition.item-context-tag": "{{item}} has context tag {{tags}}",
+    "condition.item-context-tags": "{{item}} has context tags {{tags}}",
+    "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
+
+    "condition.item-edibility.edible": "{{item}} ядомае",
+    "condition.item-edibility.min": "{{item}} мае ядомасць ад {{min}} ці больш",
+    "condition.item-edibility.range": "{{item}} мае ядомасць ад {{min}} да {{max}}",
+
+    "context-tag.bone": "любая костка",
+    "context-tag.egg": "любое яйка",
+    "context-tag.large-egg": "будзь-якое вялікае яйка",
+    "context-tag.preserved-item": "кансерваваныя {{name}}",
+
+
+    /*********
+    ** Animal lookups
+    *********/
+    // labels
+    "animal.love": "Любоў",
+    "animal.happiness": "Шчасце",
+    "animal.mood": "Сягодня добры настрой",
+    "animal.complaints": "Недавольны",
+    "animal.produce-ready": "Прадукцыя гатовая",
+    "animal.growth": "Рост",
+    "animal.sells-for": "Прадаецца за",
+
+    // values
+    "animal.complaints.hungry": "Учора без ежы",
+    "animal.complaints.left-out": "На вулицы мінулай ноччу",
+    "animal.complaints.new-home": "Пераезжае ў новы дом",
+    "animal.complaints.no-heater": "Без абагрэву ўзімку",
+    "animal.complaints.not-petted": "Сёння не гладзілі",
+    "animal.complaints.wild-animal-attack": "Атакавалі дзікія жывёлы гэтай ноччу",
+
+
+    /*********
+    ** Building > generic lookups
+    *********/
+    // labels
+    "building.animals": "Жывёлы",
+    "building.construction": "Будаўніцтва",
+    "building.construction-costs": "Выдаткі на будаўніцтва", // TODO
+    "building.feed-trough": "Аўтакармушка",
+    "building.horse": "Конь",
+    "building.horse-location": "Месцазнаходжанне каня",
+    "building.owner": "Уладар",
+    "building.slimes": "Слаймы",
+    "building.stored-hay": "Сена ў сіласнай вежы",
+    "building.upgrades": "Анаўленне",
+    "building.water-trough": "Карыта",
+
+    // values
+    "building.animals.summary": "Змяшчае {{count}} з {{max}} жывёлаў",
+    "building.construction.summary": "Будзе гатова {{date}}",
+    "building.feed-trough.automated": "Аўтаматызавана",
+    "building.feed-trough.summary": "{{filled}} з {{max}} запоўнена",
+    "building.horse-location.summary": "{{location}} ({{x}}, {{y}})",
+    "building.junimo-harvesting-enabled": "Збор ураджаю ўключаны",
+    "building.owner.none": "Без уладара",
+    "building.output-processing": "У чарзе",
+    "building.output-ready": "Гатова",
+    "building.slimes.summary": "{{count}} з {{max}} слаймаў",
+    "building.stored-hay.summary": "{{hayCount}} з {{maxHayInLocation}} снапоў сена (максімальная змяшчальнасць гэтага будынка: {{maxHayInBuilding}})",
+    "building.upgrades.barn.0": "Да 4-ох жывёл, разблакіруе : каровы",
+    "building.upgrades.barn.1": "Да 8-ох жывёл, разблакіруе : козы і цяжарнасць жывёл",
+    "building.upgrades.barn.2": "Да 12 жывёл, разблакіруе : аўтаматычнае падаванне корму, свінні і авечкі",
+    "building.upgrades.cabin.0": "Пачаткавая хата",
+    "building.upgrades.cabin.1": "Разблакіруе : кухня, магчымасць шлюбу",
+    "building.upgrades.cabin.2": "Разблакіруе : магчымасць завесці дзяцей",
+    "building.upgrades.coop.0": "Да 4-ох жывёл, разблакіруе : кураняткі",
+    "building.upgrades.coop.1": "Да 8 жывёл, разблакіруе : інкубатар, дыназаўры ды качаняткі",
+    "building.upgrades.coop.2": "Да 12 жывёл, разблакіруе : аўтаматычнае падаванне корму і трусікі",
+    "building.water-trough.summary": "{{filled}} з {{max}} карытаў запоўнена",
+
+
+    /*********
+    ** Building > fish pond lookups
+    *********/
+    // labels
+    "building.fish-pond.population": "Папуляцыя",
+    "building.fish-pond.drops": "Дроп",
+    "building.fish-pond.quests": "Запыты",
+
+    // values
+    "building.fish-pond.population.empty": "Дадайце рыбу, каб сажалка запрацавала",
+    "building.fish-pond.population.next-spawn": "Новая рыба з'явіцца {{relativeDate}}",
+    "building.fish-pond.drops.preface": "{{chance}}% шанец кожнага дня на вырабніцтва першага такога прадмета:",
+    "building.fish-pond.drops.min-fish": "З {{count}} рыбай:",
+    "building.fish-pond.quests.done": "{{count}} рыбін",
+    "building.fish-pond.quests.incomplete-one": "{{count}} рыбін: патрэбна {{itemName}}",
+    "building.fish-pond.quests.incomplete-random": "{{count}} рыбін: патрэбна 1 штука : {{itemList}}",
+    "building.fish-pond.quests.available": "Даступна {{relativeDate}}",
+
+
+    /*********
+    ** Bush lookups
+    *********/
+    // labels
+    "bush.name.berry": "Ягадны куст",
+    "bush.name.plain": "Звычайны куст",
+    "bush.name.tea": "Чайны куст",
+    "bush.description.berry": "Куст, на яком расце маліны ці ажыны.",
+    "bush.description.plain": "Куст, на яком нічога не расце.",
+    "bush.description.Tea": "Куст, якой дае чайнае лисце.",
+    "bush.date-planted": "Дата саджання",
+    "bush.growth": "Рост",
+    "bush.next-harvest": "Наступный збор",
+
+    // values
+    "bush.growth.summary": "вырасце {{date}}",
+    "bush.schedule.berry": "20% шанец на збор малін, з 15-га да 18-га вясны, а таксама на збор ажынаў з 8-га до 11-га восені.",
+    "bush.schedule.tea": "Дае чайнае лисце з 22-га кожнага сезону (акрамя зімы, калі не расце ў тепліцы).",
+
+
+    /*********
+    ** Fruit tree lookups
+    *********/
+    // labels
+    "fruit-tree.complaints": "Скаргі",
+    "fruit-tree.name": "Дрэва ({{fruitName}})",
+    "fruit-tree.growth": "Рост",
+    "fruit-tree.next-fruit": "Наступный ураджай",
+    "fruit-tree.season": "Сезон",
+    "fruit-tree.quality": "Якасць",
+
+    // values
+    "fruit-tree.complaints.adjacent-objects": "Не можа расці цераз суседнія аб'єкты",
+    "fruit-tree.growth.summary": "Дазрэе за {{date}}",
+    "fruit-tree.next-fruit.max-fruit": "Больш няма месца, збярыце тое, што ўжо ёсць",
+    "fruit-tree.next-fruit.out-of-season": "Па-за сезонам",
+    "fruit-tree.next-fruit.struck-by-lightning": "Пашкоджана маланкай! Аднавіцца за {{count}} дзён.",
+    "fruit-tree.next-fruit.too-young": "Занадта маладое для збору",
+    "fruit-tree.quality.now": "Якасць зараз : {{quality}}",
+    "fruit-tree.quality.on-date": "Якасць {{quality}} на {{date}}",
+    "fruit-tree.quality.on-date-next-year": "Якасць {{quality}} на {{date}} наступ. году",
+    "fruit-tree.season.summary": "{{season}} (або ў будзь-якой час у цяпліцы)",
+
+
+    /*********
+    ** Crop lookups
+    *********/
+    // labels
+    "crop.summary": "Расліна",
+    "crop.harvest": "Ураджай",
+    "crop.fertilized": "З угнаеннем",
+    "crop.watered": "Паліта",
+
+    // values
+    "crop.summary.dead": "Гэтая расліна завяла.",
+    "crop.summary.drops-X": "Збор {{count}}",
+    "crop.summary.drops-X-to-Y": "Збор з {{min}} до {{max}} ({{percent}}% на дадатковый збор)",
+    "crop.summary.harvest-once": "Ураджай праз {{daysToFirstHarvest}} дзён.",
+    "crop.summary.harvest-multi": "Ураджай праз {{daysToFirstHarvest}} дзён., потым кожны {{daysToNextHarvests}} дн.",
+    "crop.summary.seasons": "Сезон росту : {{seasons}}",
+    "crop.summary.sells-for": "Прадаецца за {{price}}",
+    "crop.harvest.too-late": "Занадта позна ў гэтым сезоне для наступнага збору (ураджай {{date}})",
+
+
+    /*********
+    ** Item > generic lookups
+    *********/
+    // labels
+    "item.contents": "Утрымлівае",
+    "item.loves-this": "Любіць",
+    "item.likes-this": "Падабаецца",
+    "item.neutral-about-this": "Нейтральна",
+    "item.dislikes-this": "Не падабаецца",
+    "item.hates-this": "Ненавідзіць",
+    "item.needed-for": "Неабходна для",
+    "item.number-owned": "Наяўнасць",
+    "item.number-cooked": "Прыгатавана",
+    "item.number-crafted": "Створана",
+    "item.recipes": "Рэцэпты",
+    "item.see-also": "Таксама паглядзі",
+    "item.sells-for": "Прадаецца за",
+    "item.sells-to": "Месца продажу",
+    "item.can-be-dyed": "Можна пафарбаваць",
+    "item.produces-dye": "Прадукуе фарбу",
+
+    // values
+    "item.contents.placed": "Змяшчае {{name}}",
+    "item.contents.ready": "{{name}} гатова",
+    "item.contents.partial": "{{name}} за {{time}}",
+    "item.undiscovered-gift-taste": "{{count}} незнаёмых жыхароў",
+    "item.undiscovered-gift-taste-appended": "{{count}} незнаёмых жыхароў",
+    "item.needed-for.community-center": "Грамадскі клуб ({{bundles}})",
+    "item.needed-for.full-shipment": "Дасягненне «Майстар-вантаж» (Даслаць на продаж 1 адзінку.)",
+    "item.needed-for.monoculture": "monoculture achievement (ship {{count}} more)", // TODO
+    "item.needed-for.polyculture": "Дасягненне «Монакультура» (Даслаць на продаж {{count}} адзінак або больш)",
+    "item.needed-for.full-collection": "Дасягненне «Поўная калекцыя» (Ахвяруйце музею артэфакт ці мінерал)",
+    "item.needed-for.gourmet-chef": "Дасягненне «Шэф-кухар» (Прыгатуйце страву : {{recipes}})",
+    "item.needed-for.craft-master": "Дасягненне «Найлепшы з рамеснікаў» (Стварыць прадмет : {{recipes}})",
+    "item.needed-for.quests": "Заданні зараз ({{quests}})",
+    "item.unknown-recipes": "{{count}} невядомых рэцэптаў", // TODO
+    "item.sells-to.shipping-box": "Скрыня для продажу",
+    "item.recipes-for-ingredient.entry": "{{name}} ({{count}} адз.)",
+    "item.recipes-for-machine.multiple-items": "{{name}} {{count}} адз.",
+    "item.recipes-for-machine.same-as-input": "[той жа што паклалі]", // напр. крысталярыўм вырабляе той самы прадмет, які быў укладзены // TODO
+    "item.recipes-for-machine.conditions": "[умовы: {{conditions}}]", // TODO
+    "item.recipes-for-machine.too-complex": "Некаторыя машынныя правілы занадта дынамічныя для адлюстравання.", // TODO
+    "item.number-owned.summary": "Вы маеце {{count}} адз.",
+    "item.number-crafted.summary": "Вы стварылі {{count}} адз.",
+
+
+    /*********
+    ** Item > cask lookups
+    *********/
+    // labels
+    "item.cask-contents": "Змяшчае",
+    "item.cask-schedule": "Зношваецца",
+
+    // values
+    "item.cask-schedule.now": "{{quality}} цяпер гатова",
+    "item.cask-schedule.now-partial": "{{quality}} зараз (выкарыстайце матыку для спынення старэння)",
+    "item.cask-schedule.tomorrow": "{{quality}} заўтра",
+    "item.cask-schedule.in-x-days": "{{quality}} за {{count}} дзён. ({{date}})",
+
+
+    /*********
+    ** Item > crab pot lookups
+    *********/
+    // labels
+    "item.crabpot-bait": "Прынада",
+    "item.crabpot-bait-needed": "Патрэбна прынада!",
+    "item.crabpot-bait-not-needed": "Непатрэбна, бо вы абралі прафесію «Майстар з прынадай».",
+
+
+    /*********
+    ** Item > fence lookups
+    *********/
+    // labels
+    "item.fence-health": "Здароўе",
+
+    // values
+    "item.fence-health.gold-clock": "Не руйнуецца, бо устаноўлены Залаты Гадзіннік",
+    "item.fence-health.summary": "{{percent}}% (зламаецца за {{count}} дзён.)",
+
+
+    /*********
+    ** Item > fish lookups
+    *********/
+    // labels
+    "item.fish-pond-drops": "Рыбная сажалка дае",
+    "item.fish-spawn-rules": "Умовы з'явы",
+
+    // values
+    "item.fish-spawn-rules.min-fishing-level": "Мінімальны ўзровень рыбацтва: {{level}}",
+    "item.fish-spawn-rules.not-caught-yet": "Пакуль яшчэ не злоўлена (Ёсць магчымасць злавіць толькі раз)",
+    "item.fish-spawn-rules.extended-family-quest-active": "\"Extended Family\" quest active", // TODO
+    "item.fish-spawn-rules.locations": "Месцазнаходження: {{locations}}",
+    "item.fish-spawn-rules.locations-by-season.label": "Месцазнаходження:",
+    "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
+    "item.fish-spawn-rules.season-any": "Будзь-якая пара году",
+    "item.fish-spawn-rules.season-list": "Пара году: {{seasons}}",
+    "item.fish-spawn-rules.time": "Час: {{times}}",
+    "item.fish-spawn-rules.weather-sunny": "Сонечнае надвор'е",
+    "item.fish-spawn-rules.weather-rainy": "Дажджлівае надвор'е",
+
+
+    /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Трапнасць",
+    "item.melee-weapon.critical-chance": "Крытычны шанец",
+    "item.melee-weapon.critical-damage": "Крытычная шкода",
+    "item.melee-weapon.damage": "Шкода",
+    "item.melee-weapon.defense": "Абарона",
+    "item.melee-weapon.knockback": "Адштурхоўванне",
+    "item.melee-weapon.reach": "Далёкасць",
+    "item.melee-weapon.speed": "Хуткасць атакі",
+
+    // values
+    "item.melee-weapon.critical-damage.label": "{{multiplier}} разоў нармальнага урону (да атрымання бонусаў гульца)",
+    "item.melee-weapon.defense.label": "{{amount}} пры абсталяванні",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} разоў нармальнага урону)",
+    "item.melee-weapon.reach.label": "{{amount}} пікселяў",
+    "item.melee-weapon.speed.shown-vs-actual": "паказана: {{shownSpeed}}{{lineBreak}}сапраўды: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} мілісекунд на кадр замаху, да атрымання бонусаў за хуткасць гульца)",
+
+
+    /*********
+    ** Item > movie lookups
+    *********/
+    // labels
+    "item.movie-snack-preference": "Падабаецца",
+    "item.movie-ticket.movie-this-week": "Фільм гэтага тыдня",
+    "item.movie-ticket.loves-movie": "Любіць фільм",
+    "item.movie-ticket.likes-movie": "Падабаецца фільм",
+    "item.movie-ticket.dislikes-movie": "Не Падабаецца фільм",
+    "item.movie-ticket.rejects-movie": "Не глядзіць фільм",
+
+    // values
+    "item.movie-snack-preference.love": "{{name}} любіць гэта",
+    "item.movie-snack-preference.like": "{{name}} падабаецца гэта",
+    "item.movie-snack-preference.dislike": "{{name}} не падабаецца гэта",
+    "item.movie-ticket.movie-this-week.none": "У гэты тыдзень фільму няма",
+
+
+    /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    "item.music-block.pitch": "Поле",
+    "item.music-block.drum-type": "Тып гучання",
+
+
+    /*********
+    ** Monster lookups
+    *********/
+    // labels
+    "monster.invincible": "Непаражальнасць",
+    "monster.health": "Здароўе",
+    "monster.drops": "Дроп",
+    "monster.experience": "Вопыт",
+    "monster.defense": "Ахова",
+    "monster.attack": "Атака",
+    "monster.adventure-guild": "Гільдыя Прыгоднікаў",
+
+    // values
+    "monster.drops.nothing": "Анічога",
+    "monster.adventure-guild.eradication-goal": "Мэты знішчэння пачвар: {{name}} (забіта {{count}} з {{requiredCount}})",
+
+
+    /*********
+    ** NPC > generic lookups
+    *********/
+    // labels
+    "npc.birthday": "Дзень нараджэння",
+    "npc.can-romance": "Магчымыя рамантычныя стасункі",
+    "npc.friendship": "Стасункі",
+    "npc.talked-today": "Сёння была размова",
+    "npc.gifted-today": "Сёння быў падарунак",
+    "npc.gifted-this-week": "Падарункі за гэты тыдзень",
+    "npc.kissed-today": "Сёння быў пацалунак",
+    "npc.hugged-today": "Сёння былі абдымкі",
+    "npc.loves-gifts": "Любіць падарункі :",
+    "npc.likes-gifts": "Падабаюцца падарункі :",
+    "npc.neutral-gifts": "Абыякава ставіцца да :",
+    "npc.dislikes-gifts": "Не любіць падарункі",
+    "npc.hates-gifts": "Ненавідзіць падарункі",
+    "npc.schedule": "Расклад на сёння", // TODO
+
+    // values
+    "npc.can-romance.married": "Вы ў шлюбе! <", // < turns into a heart
+    "npc.can-romance.housemate": "Вы жывеце разам!",
+    "npc.friendship.not-met": "Вы яшчэ не знаёмы.",
+    "npc.friendship.need-bouquet": "Патрэбны букет для наступн.",
+    "npc.friendship.need-points": "Наступн. за {{count}}",
+    "npc.undiscovered-gift-taste": "{{count}} не знойдзеных прадметаў",
+    "npc.unowned-gift-taste": "{{count}} прадметаў, якімі вы ніколі не валодалі",
+    "npc.schedule.current-position": "У цяперашні час знаходзіцца ў {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.no-entries": "Расклад не загружаны.", // TODO
+    "npc.schedule.entry": "{{time}}: ідзе да {{locationName}} ({{x}}, {{y}}).", // TODO
+
+
+    /*********
+    ** NPC > child lookups
+    *********/
+    // labels
+    "npc.child.age": "Узрост",
+
+    // values
+    "npc.child.age.description-partial": "{{label}} ({{count}} дз. да {{nextLabel}})",
+    "npc.child.age.description-grown": "{{label}}",
+    "npc.child.age.newborn": "Навароджаны",
+    "npc.child.age.baby": "Немаўля",
+    "npc.child.age.crawler": "Паўзун",
+    "npc.child.age.toddler": "Хадун",
+
+
+    /*********
+    ** Pet lookups
+    *********/
+    // labels
+    "pet.love": "Прыхільнасць",
+    "pet.petted-today": "Сёння ў гуморы",
+    "pet.last-petted": "Апошні раз лашчаны",
+    "pet.water-bowl": "Міска для вады",
+
+    // values
+    "pet.last-petted.yes": "Так (+12 адз. прыхільнасці)",
+    "pet.last-petted.days-ago": "{{days}} дзён таму",
+    "pet.last-petted.never": "Ніколі",
+    "pet.water-bowl.empty": "Пустое",
+    "pet.water-bowl.filled": "Напоўнена (+6 адз. прыхільнасці)",
+
+
+    /*********
+    ** Player lookups
+    *********/
+    // labels
+    "player.farm-name": "Назва фермы",
+    "player.farm-map": "Мапа фермы",
+    "player.favorite-thing": "Любімая рэч",
+    "player.gender": "Пол",
+    "player.housemate": "Сужыцель",
+    "player.spouse": "Статус шлюбу",
+    "player.watched-movie-this-week": "Гулец ужо глядзеў фільм гэтага тыдня",
+    "player.combat-skill": "Баявыя навыкі",
+    "player.farming-skill": "Фермерства",
+    "player.fishing-skill": "Рыбацтва",
+    "player.foraging-skill": "Збіральніцтва",
+    "player.mining-skill": "Шахтарства",
+    "player.luck": "Удача",
+    "player.save-format": "Захаваць фармат",
+
+    // values
+    "player.farm-map.custom": "Карыстальніцкі",
+    "player.gender.male": "Мужчынскі",
+    "player.gender.female": "Жаночы",
+    "player.luck.summary": "{{percent}}% да агульнага паказчыка поспеху",
+    "player.skill.progress": "Узр. {{level}} ({{expNeeded}} вопыту да наступн.)",
+    "player.skill.progress-last": "Узр. {{level}}",
+
+
+    /*********
+    ** Puzzles
+    *********/
+    // labels
+    "puzzle.solution": "Рашэнне",
+
+    // values
+    "puzzle.solution.solved": "Галаваломка вырашана!",
+    "puzzle.solution.hidden": "Вырашанне прыхована адпаведна з вашымі наладамі.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    "puzzle.island-crystal-cave.title": "Галаваломка Крышталёвай пячоры",
+    "puzzle.island-crystal-cave.crystal-id": "ID крышталю",
+
+    // values
+    "puzzle.island-crystal-cave.solution.not-activated": "Актывуйце статую, каб пачаць разгадваць галаваломку.",
+    "puzzle.island-crystal-cave.solution.waiting": "Пачакайце, пакуль гульня згенеруе паслядоўнасць...",
+    "puzzle.island-crystal-cave.solution.activated": "Паўтарыце ўзор актываванага крышталя:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    "puzzle.island-mermaid.title": "Таямніца Выспы Русалкі",
+    "puzzle.island-mermaid.solution.intro": "Выкарыстуйце флейта-блокі, каб стварыць песню русалкі з Начнога рынку. Значэнне высаты тону (Можна шукаць флейта-блокі, каб пабачыць ягоную вышыню):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    "puzzle.island-shrine.title": "Таямніца Святыні Выспы ",
+
+    // values
+    "puzzle.island-shrine.solution": "Для кожнага п'едэсталу пакладзіце прадмет, які змяшчае каштоўнасці, у адпаведнае месца на выспе падчас дажджу. Прадметы пакладзены выпадковым чынам для кожнага захоўвання.",
+    "puzzle.island-shrine.solution.east": "Усход: {{item}}",
+    "puzzle.island-shrine.solution.north": "Поўнач: {{item}}",
+    "puzzle.island-shrine.solution.south": "Поўдзень: {{item}}",
+    "puzzle.island-shrine.solution.west": "Захад: {{item}}",
+
+
+    /*********
+    ** Tile lookups
+    *********/
+    // labels
+    "tile.description": "Пазіцыя ячэйкі на мапе. Гэта адабражаецца, бо вы уключылі агляд ячэек у файле адпаведнага моду.",
+    "tile.game-location": "Назва лакацыі",
+    "tile.map-name": "Назва мапы",
+    "tile.tile": "Ячэйка",
+    "tile.tile-index": "{{layerName}}: індекс ячэйкі",
+    "tile.tilesheet": "{{layerName}}: табліца ячэйкі",
+    "tile.blend-mode": "{{layerName}}: рэжым перакрыцця",
+    "tile.index-property": "{{layerName}}: іх уласцівасці : {{propertyName}}",
+    "tile.tile-property": "{{layerName}}: уласцівасці : {{propertyName}}",
+
+    // values
+    "tile.tile.none-here": "Тут няма ячэйкі",
+
+
+    /*********
+    ** Trash Bear or Gourmand lookups
+    *********/
+    // labels
+    "trash-bear-or-gourmand.item-wanted": "Патрэбны прадмет",
+    "trash-bear-or-gourmand.quest-progress": "Прагрэс задання",
+
+
+    /*********
+    ** Wild tree lookups
+    *********/
+    // labels
+    "tree.stage": "Стадыя росту",
+    "tree.next-growth": "Наступная стадыя",
+    "tree.seed": "Змяшчае насенне",
+    "tree.is-fertilized": "Выкарыстана ўгнаенне",
+
+    // values
+    "tree.name.big-mushroom": "Вялікі грыб",
+    "tree.name.mahogany": "Чырвонае дрэва",
+    "tree.name.maple": "Клён",
+    "tree.name.oak": "Дуб",
+    "tree.name.palm": "Пальма",
+    "tree.name.pine": "Сасна",
+    "tree.name.mossy": "Замшэлае дрэва",
+    "tree.name.mystic": "Містычнае дрэва",
+    "tree.name.unknown": "Невядомае дрэва",
+    "tree.stage.done": "Поўнасцю вырасла",
+    "tree.stage.partial": "{{stageName}} ({{step}} з {{max}})",
+    "tree.next-growth.winter": "Не расце зімой па-за межамі цяпліцы",
+    "tree.next-growth.adjacent-trees": "Не можа расці, таму што побач няма месца",
+    "tree.next-growth.chance": "{{chance}}% шанец, што заўтра будзе {{stage}}",
+    "tree.seed.not-ready": "Не гатова",
+    "tree.seed.probability-daily": "{{chance}}% шанец {{itemName}} кожны дзень.",
+    "tree.seed.probability-on-chop": "{{chance}}% шанец выпадзення {{itemName}} калі зрубіць.",
+
+    // growth stages
+    "tree.stages.seed": "Насенне",
+    "tree.stages.sprout": "Парастак",
+    "tree.stages.sapling": "Саджанец",
+    "tree.stages.bush": "Куст",
+    "tree.stages.smallTree": "Маленькае дрэва",
+    "tree.stages.tree": "Дрэва",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Асноўныя налады",
+    "config.force-full-screen.name": "Перавесці на ўвесь экран",
+    "config.force-full-screen.desc": "Меню заўсёды будзе поўнаэкранным, а не па цэнтры акна. Гэта ў асноўным карысна пры праглядзе дадзеных.",
+
+    // progression mode
+    // TODO
+    "config.title.progression": "Рэжым прагрэсу",
+
+    "config.progression.show-unknown-gift-tastes.name": "Пакажыце невядомыя падарункавыя густы",
+    "config.progression.show-unknown-gift-tastes.desc": "Ці варта дэманстраваць падарункавыя густы, пра якія вы яшчэ не даведаліся ў гульні (напрыклад, з тэксту дыялогу або эксперыментаў).",
+
+    "config.progression.show-unknown-recipes.name": "Паказаць невядомыя рэцэпты",
+    "config.progression.show-unknown-recipes.desc": "Ці паказваць рэцэпты, якія вы яшчэ не вывучылі ў гульні.",
+
+    "config.progression.show-puzzle-solutions.name": "Паказаць магчымыя рашэнні пазла",
+    "config.progression.show-puzzle-solutions.desc": "Калі паказваць рашэнні пазла.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Абраныя",
+    "config.show-gift-tastes.loved.name": "Паказаць любімыя падарункі",
+    "config.show-gift-tastes.loved.desc": "Ці паказваць любімыя падарункі ў дасье НІПаў і прадметаў.",
+    "config.show-gift-tastes.liked.name": "Паказаць любімыя падарункі",
+    "config.show-gift-tastes.liked.desc": "Ці паказваць любімыя падарункі ў дасье НІПаў і прадметаў.",
+    "config.show-gift-tastes.neutral.name": "Паказаць звычайныя падарункі",
+    "config.show-gift-tastes.neutral.desc": "Ці паказваць звычайныя падарункі ў дасье НІПаў і прадметаў.",
+    "config.show-gift-tastes.disliked.name": "Паказаць непажаданыя падарункі",
+    "config.show-gift-tastes.disliked.desc": "Ці паказваць неўпадабаныя падарункі ў дасье НІПаў і прадметаў.",
+    "config.show-gift-tastes.hated.name": "Паказаць жахлівыя падарункі",
+    "config.show-gift-tastes.hated.desc": "Ці паказваць жахлівыя падарункі ў дасье НІПаў і прадметаў.",
+
+    "config.show-unowned-gifts.name": "Паказаць невядомыя падарункі",
+    "config.show-unowned-gifts.desc": "Ці паказаць невядомыя падарункі, якімі гулец не валодае дзесьці ў свеце.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Падкрэсліць невядомыя любімыя падарункі",
+    "config.highlight-unrevealed-gift-tastes.desc": "Падкрэслівае любімыя падарункі, якія не былі выяўленыя ў профілі НІП. Калі ўключана, нязнойдзеныя любімыя падарункі будуць выдзелены тлустым шрыфтам.",
+
+    // collapse fields
+    // TODO
+    "config.title.collapse-fields": "Згарнуць вялікія палі",
+
+    "config.collapse-fields.enabled.name": "Уключаны",
+    "config.collapse-fields.enabled.desc": "Ці згортваць вялікія палі, каб меню пошуку замяніла спіс спасылкай «паказаць значэнні X», якую можна націснуць, каб пашырыць яго.",
+
+    "config.collapse-fields.building-recipes.name": "Агляд будынкаў: рэцэпты",
+    "config.collapse-fields.item-recipes.name": "Агляд прадметаў: рэцэпты",
+    "config.collapse-fields.npc-gift-tastes.name": "Агляд NPC: падарункі",
+    "config.collapse-fields.any.desc": "Калі поле змяшчае такую ​​колькасць значэнняў, меню пошуку заменіць спіс спасылкай «паказаць значэнні X», якую можна націснуць, каб разгарнуць яго.",
+
+    // advanced options
+    "config.title.advanced-options": "Дадатковыя параметры",
+    "config.tile-lookups.name": "Распазнаваць клеткі",
+    "config.tile-lookups.desc": "Уключэнне фрагменту свету ў якасці мэты пошуку.",
+    "config.data-mining-fields.name": "Паказаць поле аналізу даных",
+    "config.data-mining-fields.desc": "Паказ неапрацаваных даных, карысных для тых, хто шукае даныя (у выглядзе асобных палёў унізе вынікаў пошуку). Гэта пашыраная функцыя, якая не прызначана для большасці гульцоў.",
+    "config.show-invalid-recipes.name": "Паказаць несапраўдныя рэцэпты", // TODO
+    "config.show-invalid-recipes.desc": "Ці паказваць рэцэпты, якія патрабуюць або ствараюць зламаныя прадметы.", // TODO
+    "config.target-redirection.name": "Мэтавая перанакіраванне",
+    "config.target-redirection.desc": "У некаторых выпадках гульня спараджае часовую сутнасць, якая прадстаўляе іншую. Напрыклад, Эбігейл у шахтах на самай справе з'яўляецца названым часовым НІП «AbigailMine», так што яе пошук не дасць ніякай сапраўднай інфармацыі пра Эбігейл. Калі гэты параметр уключаны, Lookup Anything будзе шукаць арыгінальную Эбігейл.",
+    "config.scroll-amount.name": "Колькасць пракруткі",
+    "config.scroll-amount.desc": "Колькасць пікселяў для зрушэння змесціва пры кожнай пракрутцы ўверх/уніз.",
+
+    // controls section
+    "config.title.controls": "Элементы кіравання",
+    "config.hide-on-key-up.name": "Клавіша ўтойвання",
+    "config.hide-on-key-up.desc": "Схаваць інтэрфейс пошуку, калі вы адпусціце клавішу пошуку.",
+    "config.toggle-lookup.name": "Уключыць пошук",
+    "config.toggle-lookup.desc": "Клавішы, якія пераключаюць карыстальніцкі інтэрфейс для пошуку чагосьці з дапамогай курсора.",
+    "config.toggle-search.name": "Уключыць пошук",
+    "config.toggle-search.desc": "Клавішы, якія пераключаюць інтэрфейс пошуку.",
+    "config.scroll-up.name": "Пракрутка ўверх",
+    "config.scroll-up.desc": "Клавішы, якія пракручваюць доўгі змест на некалькі радкоў уверх.",
+    "config.scroll-down.name": "Пракрутка ўніз",
+    "config.scroll-down.desc": "Клавішы, якія пракручваюць доўгі змест на некалькі радкоў уніз.",
+    "config.page-up.name": "Пракруціць старонку ўверх",
+    "config.page-up.desc": "Клавішы, якія пракручваюць доўгі кантэнт уверх на ўсю старонку.",
+    "config.page-down.name": "Пракруціць старонку ўніз",
+    "config.page-down.desc": "Клавішы, якія пракручваюць доўгі кантэнт на ўсю старонку ўніз.",
+    "config.toggle-debug.name": "Уключыць адладку",
+    "config.toggle-debug.desc": "Клавішы, якія пераключаюць адлюстраванне інфармацыі аб адладцы."
+}
